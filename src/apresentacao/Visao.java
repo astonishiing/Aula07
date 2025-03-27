@@ -10,7 +10,7 @@ public class Visao extends JFrame {
      */
 
     private static final long serialVersionUID = 1L;
-    private JPanel objPainel = new JPanel();
+
 
     public static void main(String[] args) {
         new Visao().setVisible(true);
@@ -22,7 +22,9 @@ public class Visao extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
-        setContentPane(objPainel);
+        Painel painelDesenho = new Painel();
+
+        setContentPane(painelDesenho);
     }
 
 }
