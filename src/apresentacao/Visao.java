@@ -8,7 +8,7 @@ public class Visao extends JFrame {
     /**
      *
      */
-
+    Painel painelDesenho = new Painel();
     private static final long serialVersionUID = 1L;
 
 
@@ -22,7 +22,7 @@ public class Visao extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
-        Painel painelDesenho = new Painel();
+
 
         setContentPane(painelDesenho);
     }
